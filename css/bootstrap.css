@@ -6128,7 +6128,7 @@ textarea.form-control-lg {
 .carousel-indicators {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: -20px;
   left: 0;
   z-index: 2;
   display: flex;
@@ -6175,6 +6175,8 @@ textarea.form-control-lg {
   padding-bottom: 1.25rem;
   color: #fff;
   text-align: center;
+  transform:translate( 25%,-50%);
+
 }
 
 .carousel-dark .carousel-control-prev-icon,
