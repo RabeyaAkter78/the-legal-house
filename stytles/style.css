@@ -9,3 +9,17 @@
    height: 50%; 
    border: none;
 }
+.a{
+    text-decoration: none;
+    color:white;
+
+}
+.fa-solid{
+    background-color:#B68C5A ;
+    width:42px;
+    height:45px;
+    border-radius:5px;
+    position: absolute;
+    align-items: center;
+    z-index:1;
+}
