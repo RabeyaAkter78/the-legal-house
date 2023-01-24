@@ -9,9 +9,11 @@
     <link rel="stylesheet" href="stytles/style.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <!-- fontfamily -->
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond&family=Open+Sans:ital@0;1&family=Poppins:wght@500&family=Work+Sans:wght@700&display=swap');
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=EB+Garamond&family=Open+Sans:ital@0;1&family=Poppins:wght@500&family=Work+Sans:wght@700&display=swap"
+        rel="stylesheet">
 
     <!-- fontawsome------------------- -->
     <script src="https://kit.fontawesome.com/6c2b1b080d.js" crossorigin="anonymous"></script>
@@ -48,25 +50,61 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contact Us<i class="fa-solid fa-chevron-right"></i></a>
                         </li>
-                        <button type="button" class="btn btn-primary">Free Consultation</button>
-                    </ul>
+                        <!-- <button type="button" class="btn btn-primary">Free Consultation</button>
+                        <div> -->
+
+
+
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Free Consultation
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        ...
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                 </div>
+                </ul>
             </div>
-        </nav>
+    </div>
+    </nav>
     </div>
     <!----------------------- Banner section---------------------- -->
-    <div class="container text-center">
+    <div class=" container text-center">
         <img src="./images/banner.png" class="img-fluid" alt="...">
-        <div class="position-absolute sticky-sm-top top-50 start-50 translate-middle">
-            <h1 class="display-4 fw-semibold text-white">We Provide Effective <br> Legal Solutions</h1>
-            <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua <br>
+        <div class="position-absolute top-50 start-50 translate-middle">
+            <h5 class="display-5 fw-bold text-white">We Provide Effective <br> Legal Solutions</h5>
+            <p class="text-white">Amet minim mollit non deserunt ullamco est sit aliqua
                 dolor do amet sint. Velit officia consequat duis enim veli
             </p>
-            <div>
-                <input type="search" class="form-control border-success" id="exampleFormControlInput1"
-                    placeholder="Search Your Services">
+            <div class="d-flex justify-content-center align-items-center">
+                <div>
+                    <input type="search" class="form-control " id="exampleFormControlInput1"
+                        placeholder="Search Your Services">
+                </div>
+                <div>
+                    <button class="btn btn-primary btn-lg fw-bold">Search</button>
+
+                </div>
             </div>
-            <button class="btn btn-primary btn-lg fw-bold py-3">Search</button>
         </div>
 
     </div>
@@ -263,7 +301,7 @@
                 </div>
             </div>
             <div>
-                <form >
+                <form>
                     <input class="mb-2" type="text" placeholder=" Name"><br>
                     <input class="mb-2" type="email" name="" id="" placeholder="email"><br>
                     <input class="mb-2" type="password" name="" id="" placeholder="password"><br>
